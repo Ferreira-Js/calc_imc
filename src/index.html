@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <script src="js/index.js"></script>
+
+    <div class="header">
+        <nav class="navbar">
+            <div class="logo__name">
+                <h1>IMC Calculator</h1>
+            </div>
+            <div class="nav__menu">
+                <a href="https://github.com/Ferreira-Js" target="_blank">Github</a>
+                <a href="https://github.com/Ferreira-Js?tab=repositories" target="_blank">More Projects</a>
+            </div>
+        </nav>
+    </div>
+
+    <div class="main__items">
+        <main>
+            <label for="height">Height</label>
+            <input type="number" name="height" id="height" placeholder="ex: 175">
+
+            <label for="weight">weight</label>
+            <input type="number" name="weight" id="weight" placeholder="ex: 75">
+
+            <button type="submit" onclick="calc()">Calculate!</button>
+
+            <label id="result__text" hidden>Result</label>
+            <input id="final__result" type="number" disabled hidden>
+
+            <footer>
+                <p>📮 Este é um projeto que fiz apenas para adicioar ao meu GitHub! Veja mais projeto como como esse <a href="https://github.com/Ferreira-Js" target="_blank" id="redir__github">clicando aqui</a></p>
+            </footer>
+        </main>
+    </div>
+
+    
+</body>
+</html>

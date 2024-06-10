@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(248, 220, 220);
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.navbar {
+    background-color: rgb(209, 169, 94);
+
+    width: 800px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 10px 10px 3px 3px;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.199);
+}
+
+.logo__name {
+    padding: 20px;
+}
+
+.nav__menu {
+    margin-top: 70px;
+}
+
+.nav__menu > a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+.nav__menu > a:hover {
+    text-decoration: underline;
+    background-color: rgb(165, 140, 94);
+    border-radius: 10px;
+    color: blue;
+}
+
+.main__items {
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    background-color: rgb(209, 169, 94);
+    width: 950px;
+    height: 250px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.199);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main > label, input {
+    margin: 0 auto;
+    padding: 3px;
+}
+
+button {
+    width: 150px;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 12px;
+    background-color: transparent;
+    transition: transform 0.5s ease;
+}
+
+button:hover {
+    /* height: 4em; */
+    border-radius: 10px;
+    transform: scale(1.1);
+}
+
+footer {
+    margin: auto;
+}
+
+#redir__github {
+    color: blue;
+    font-weight: bold;
+}
+
+/* #redir__github:hover {
+
+} */
