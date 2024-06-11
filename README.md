@@ -14,4 +14,5 @@ _IMC_ é a sigla para **Índice de Massa Corpórea**, parâmetro adotado pela OM
 | Maior que 40 | Obesidade de Terceiro Grau |
 
 > Fonte: [superafarma.com.br](https://superafarma.com.br)
+
 > Caso algo nessa tabela esteja errado ou foi atualizado, deixe um "issue" que rapidamente atualizarei =)
