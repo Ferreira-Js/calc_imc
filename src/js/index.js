@@ -26,3 +26,13 @@ function calc() {
 
     final__result.value = conv__result
 }
+
+function showButton() {
+    const table = document.getElementById("table")
+
+    if (table.hidden == true) {
+        table.hidden = false
+    } else {
+        table.hidden = true
+    }
+}

@@ -35,12 +35,42 @@
             <label id="result__text" hidden>Result</label>
             <input id="final__result" type="number" disabled hidden>
 
-            <footer>
-                <p>📮 Este é um projeto que fiz apenas para adicioar ao meu GitHub! Veja mais projeto como como esse <a href="https://github.com/Ferreira-Js" target="_blank" id="redir__github">clicando aqui</a></p>
-            </footer>
+            <button onclick="showButton()">Show table</button>
+
+            <!-- Tabela de valoes -->
+            <table id="table" style="width: 100%;" hidden>
+                <tr>
+                    <th>IMC</th>
+                    <th>Classificação</th>
+                </tr>
+
+                <tr>
+                    <td class="td_bold">Muito abaixo do peso</td>
+                    <td class="td_bold">Abaixo do peso</td>
+                    <td class="td_bold">Peso normal</td>
+                    <td class="td_bold">Acima do peso</td>
+                    <td class="td_bold">Obesidade de Primeiro Grau</td>
+                    <td class="td_bold">Obesidade de Segundo Grau</td>
+                    <td class="td_bold">Obesidade de Terceiro Grau</td>
+                    
+                </tr>
+
+                <tr>
+                    <td>Menor que 16,9</td>
+                    <td>17 a 18,4</td>
+                    <td>18,5 a 24,9</td>
+                    <td>25 a 29,9</td>
+                    <td>30 a 34,9</td>
+                    <td>35 a 40</td>
+                    <td>Maior que 40</td>
+                </tr>
+            </table>
         </main>
     </div>
 
+    <footer>
+        <p>📮 Este é um projeto que fiz apenas para adicioar ao meu GitHub! Veja mais projeto como como esse <a href="https://github.com/Ferreira-Js" target="_blank" id="redir__github">clicando aqui</a></p>
+    </footer>
     
 </body>
 </html>
