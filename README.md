@@ -15,4 +15,4 @@ _IMC_ é a sigla para **Índice de Massa Corpórea**, parâmetro adotado pela OM
 
 > Fonte: [superafarma.com.br](https://superafarma.com.br)
 
-> Caso algo nessa tabela esteja errado ou foi atualizado, deixe uma "issue" que rapidamente atualizarei =)
+> Caso algo nessa tabela esteja errado ou foi atualizado, deixe uma [issue](https://github.com/ferreira-js/calc_imc/issues) que rapidamente atualizarei a tabela =)
